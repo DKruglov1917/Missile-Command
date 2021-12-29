@@ -76,12 +76,6 @@ public class GameController : MonoBehaviour
             stageScoreMultiplier = 5;
         else if (stage >= 11)
             stageScoreMultiplier = 6;
-        else
-        {
-            Debug.LogError("Something wrong with stage values");
-        }
-
-        Debug.Log("Stage: " + stage);
     }
 
     private void GameSpeedMultiplier()
